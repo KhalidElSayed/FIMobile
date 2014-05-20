@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom|fill|top"
+    android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="356dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="124.51"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+            <!-- Email Label -->
+
+                <ImageView
+                    android:layout_width="222dp"
+                    android:layout_height="174dp"
+                    android:src="@drawable/logo_gris"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingBottom="20dp" />
+
+            <TextView
+                android:layout_width="222dp"
+                android:layout_height="wrap_content"
+                android:text="@string/user_tag_login_activity"
+                android:textColor="#372c24" 
+                android:layout_gravity="center_horizontal"/>
+
+            <EditText
+                android:id="@+id/txtUsuario"
+                android:layout_width="222dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginTop="5dip"
+                android:singleLine="true"
+                android:text="@string/default_login" 
+                android:layout_gravity="center_horizontal"/>
+
+            <!-- Password Label -->
+
+            <TextView
+                android:layout_width="222dp"
+                android:layout_height="wrap_content"
+                android:text="@string/password_tag_login_activity"
+                android:textColor="#372c24"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:id="@+id/txtClave"
+                android:layout_width="222dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:password="true"
+                android:singleLine="true"
+                android:text="@string/default_pass"
+                android:layout_gravity="center_horizontal" />
+
+            <!-- Login button -->
+
+            <Button
+             android:id="@+id/btnLogin"
+             android:layout_height="40dp"
+         	 android:layout_width="wrap_content"
+         	 android:text="@string/enter_tag_login_activity"/>
+            
+
+		</LinearLayout>
+
+
+        </LinearLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+                <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnClientes"
+                style="@style/dashboard_button"
+                android:drawableTop="@drawable/cliente"
+                android:onClick="clicked"
+                android:text="@string/button_text_client" />
+
+            <Button
+                android:id="@+id/btnFacturacion"
+                style="@style/dashboard_button"
+                android:drawableTop="@drawable/facturacion"
+                android:onClick="clicked"
+                android:text="@string/button_text_billing" />
+            
+            <Button
+                android:id="@+id/btnPresupuesto"
+                style="@style/dashboard_button"
+                android:drawableTop="@drawable/presupuesto"
+                android:onClick="clicked"
+                android:text="@string/button_text_budget" />
+            
+            <Button
+                android:id="@+id/btnInformes"
+                style="@style/dashboard_button"
+                android:drawableTop="@drawable/informes"
+                android:onClick="clicked"
+                android:text="@string/button_text_information" />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal" >
+			
+			<Button android:id="@+id/btnRelaciones"
+                style="@style/dashboard_button"
+                android:drawableTop="@drawable/relaciones"
+                android:onClick="clicked"
+                android:text="@string/button_text_relations" />
+			
+			<Button
+                android:id="@+id/btnCalendario"
+                style="@style/dashboard_button"
+                android:drawableTop="@drawable/calendario"
+                android:onClick="clicked"
+                android:text="@string/button_text_calendar" />
+
+            <Button
+                android:id="@+id/btnPerfilc"
+                style="@style/dashboard_button"
+                android:drawableTop="@drawable/perfil"
+                android:onClick="clicked"
+                android:text="@string/button_text_profile" />
+            
+            
+            <Button
+                android:id="@+id/btnNovedades"
+                style="@style/dashboard_button"
+                android:drawableTop="@drawable/novedades"
+                android:onClick="clicked"
+                android:text="@string/button_text_novelty" />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal" >
+			
+			<Button android:id="@+id/btnRutas"
+                style="@style/dashboard_button"
+                android:drawableTop="@drawable/rutas"
+                android:onClick="clicked"
+                android:text="@string/button_text_routes" />
+			
+			<Button
+                android:id="@+id/btnSalir"
+                style="@style/dashboard_button"
+                android:drawableTop="@drawable/salir"
+                android:onClick="clicked"
+                android:text="@string/button_text_exit" />
+
+            <Button
+                android:id="@+id/btnSync"
+                style="@style/dashboard_button"
+                android:drawableTop="@drawable/sync"
+                android:onClick="clicked"
+                android:text="@string/button_text_synchronize" />
+            
+            
+            <Button
+                android:id="@+id/btnPedidosCongelados"
+                style="@style/dashboard_button"
+                android:drawableTop="@drawable/pedidos_congelados"
+                android:onClick="clicked"
+                android:text="@string/button_text_offer_frozen" />
+            
+        </LinearLayout>
+        
+        
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="progress_message">Trabajando. Por favor espere...</string>
+    
+    <string name="app_name">Fi</string>
+    <string name="action_settings">Settings</string>
+    
+	<string name="user_tag_login_activity">Usuario</string>
+	<string name="password_tag_login_activity">Clave</string>
+	<string name="enter_tag_login_activity">Entrar</string>
+	
+	<string name="default_login">79687346</string>
+	<string name="default_pass">password</string>
+	
+	<string name="button_text_client">Clientes</string>
+	<string name="button_text_billing">Facturacion</string>
+	<string name="button_text_budget">Presupuesto</string>
+	<string name="button_text_information">Informes</string>
+	<string name="button_text_relations">Relaciones</string>
+	<string name="button_text_calendar">Calendario</string>
+	<string name="button_text_profile">Perfil</string>
+	<string name="button_text_novelty">Novedades</string>
+	<string name="button_text_routes">Rutas</string>
+	<string name="button_text_exit">Salir</string>
+	<string name="button_text_synchronize">Sincronizar</string>
+	<string name="button_text_offer_frozen">Pedidos Congelados</string>
+	
+	<string name="toast_search_client_activity">Busqueda finalizada, por favor delice el panel izquierdo!</string>
+    
+</resources>

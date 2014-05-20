@@ -1,0 +1,15 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+	<color name="background">#FFF</color>     
+    <color name="buttonfocus">#dcd8dc</color>
+    <color name="buttonpressed">#dcd8dc</color>
+    
+    <color name="list_item_title">#000</color>
+    <color name="list_background">#FFFFFF</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#cccccc</color>
+    <color name="counter_text_bg">#ffffff</color>
+    <color name="counter_text_color">#000000</color>
+    
+</resources>

@@ -1,0 +1,6 @@
+1- loggin la premerra vez unicmente
+2- todo se consulta asincrono, y en mododo local, solo sincronizar descarga y envia lo que se ha procesado
+
+
+ojo que la sincronizacion es esto
+-> buscarClientes -> BuscarClienteActivity 
